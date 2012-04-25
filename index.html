@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>three.js ASCII - geometry - cube</title>
+    <title>video ascii</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   </head>
@@ -13,7 +13,7 @@
     var domElement = document.createElement('div');
     var ascii = document.createElement("table");
     domElement.appendChild(ascii);
-  var bResolution = .1;
+  var bResolution = .2;
   var iScale = .5;
   var bColor = false; // nice but slows down rendering!
   var bAlpha = false;
@@ -191,7 +191,6 @@ document.addEventListener('DOMContentLoaded', function(){
         canvas.height = ch;
       
         draw(v,canvas,context,cw,ch);
-    v.volume= 0;
     },false);
 
 },false);
